@@ -3,6 +3,110 @@
     font-weight: 700;
 }
 
-.container {
-    margin: 5rem;
+.container-first {
+    padding: 5rem;
+    display: flex;
+    height: 29.4375rem;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    height: 29.4375rem;
+    width: 39.25rem;
+    z-index: -1;
+}
+
+h2 {
+    font-size: 7.5rem;
+    z-index: 0;
+    font-weight: 400;
+    margin-left: 27.75rem;
+}
+
+.services {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    z-index: 1;
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    display: flex;
+}
+
+.white {
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.container-second {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    color: black;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    gap: 4.56rem;
+}
+
+.card-first {
+    display: flex;
+    flex-direction: column;
+    gap: 3.12rem;
+    width: auto;
+    flex-basis: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+    width: auto;
+    flex-basis: 100%;
+}
+.pfp {
+    display: flex;
+    justify-content: center;
+}
+
+.italic {
+    font-size: 1.875rem;
+    font-style: italic;
+    flex-grow: 1;
+}
+
+.person {
+    color: #7000A0;
+    text-align: end;
+    font-size: 1.5rem;
+}
+
+.container-third {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 400;
 }

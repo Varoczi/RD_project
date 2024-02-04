@@ -22,7 +22,6 @@ header {
 menu {
     display: flex;
     gap: 3.125rem;
-    font-weight: 400;
     font-size: 1.5rem;
 }
 
@@ -35,7 +34,6 @@ footer {
 .footer {
     padding: 4.69rem;
     letter-spacing: 12.5rem;
-    font-weight: 400;
     font-size: 7.5rem;
     text-indent: 12.5rem;
 }
