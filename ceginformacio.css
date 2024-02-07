@@ -52,10 +52,6 @@ h3 {
     padding: 0;
 }
 
-p {
-    margin:0rem;
-}
-
 .row {
     display: flex;
     gap: 4.56rem;
@@ -85,6 +81,7 @@ p {
     font-size: 1.875rem;
     font-style: italic;
     flex-grow: 1;
+    margin: 0rem;
 }
 
 .person {
@@ -108,4 +105,12 @@ p {
 .text {
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.no-top {
+    margin-top: 0rem;
+}
+
+.no-bottom {
+    margin-bottom: 0rem;
 }
