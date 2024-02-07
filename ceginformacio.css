@@ -1,3 +1,8 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .container-first {
     padding: 5rem;
     display: flex;
@@ -12,11 +17,19 @@
     z-index: -1;
 }
 
-h2 {
+.dark-theme h2 {
     font-size: 7.5rem;
     z-index: 0;
     font-weight: 400;
-    margin-left: 27.75rem;
+    margin-left: 28.45rem;
+}
+
+.light-theme h2 {
+    font-size: 7.5rem;
+    z-index: 0;
+    font-weight: 400;
+    margin-left: 28.45rem;
+    text-shadow: 0px 0px 15px #FFF;
 }
 
 .services {
@@ -29,19 +42,34 @@ h2 {
     display: flex;
 }
 
-.white {
+.dark-theme .white {
     background-color: white;
     margin: 0rem;
     padding: 0rem;
 }
 
-.container-second {
+.light-theme .white {
+    background-color:#121215;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.dark-theme .container-second {
     padding: 5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 5rem;
     color: black;
+}
+
+.light-theme .container-second {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    color: #EEEEF0;
 }
 
 h3 {

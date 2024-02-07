@@ -1,3 +1,8 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .flex {
     display: flex;
     flex-direction: column;
@@ -29,6 +34,7 @@ h4 {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
+    text-align: center;
 }
 
 p {
@@ -44,4 +50,8 @@ p {
     gap: 2rem;
     align-items: center;
     text-align: justify;
+}
+
+.light-theme .icon path {
+    fill: #121215;
 }

@@ -1,3 +1,8 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h3 {
     font-size: 2.5rem;
     font-style: italic;
@@ -17,9 +22,17 @@ img {
     max-width: 28.08801rem;
 }
 
-.white {
+.dark-theme .white {
     background-color: white;
     color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 3.12rem 5rem;
+}
+
+.light-theme .white {
+    background-color: #121215;
+    color: white;
     font-size: 1.5rem;
     font-weight: 700;
     padding: 3.12rem 5rem;
@@ -42,9 +55,14 @@ img {
     max-width: 43.875rem;
 }
 
-.common {
+.dark-theme .common {
     font-weight: 400;
     color: white;
+}
+
+.light-theme .common {
+    font-weight: 400;
+    color: #121215;
 }
 
 .spacing {
@@ -70,7 +88,7 @@ form {
 }
 
 #message {
-    width: 80rem;
+    width: 79.9rem;
     height: 8.9376rem;
 }
 
@@ -99,4 +117,6 @@ input {
     bottom: 3.06rem;
     margin-left: auto;
     margin-top: 1.19rem;
+    border: 0;
+    padding: 0rem;
 }
