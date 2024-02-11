@@ -1,3 +1,110 @@
+@media only screen and (max-width: 375px) {
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+img {
+    height: 25rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    align-self: stretch;
+    gap: auto;
+}
+
+.spacing {
+    margin: 0;
+    padding: 0;
+}
+
+.common {
+    font-weight: 400;
+    color: white;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.white {
+    padding: 2rem;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.92rem;
+    color: black;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    width: auto;
+    height: 3.125rem;
+    background-color: #888;
+    border-bottom: 4px solid #A0009B;
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#message {
+    height: 8.9375rem;
+}
+
+.submit {
+    background: linear-gradient(90.28deg, #7000A0 0.01%, #A0009B 100%);
+    color: white;
+    font-size: 1.5rem;
+    width: 12.5rem;
+    height: 3.375rem;
+    padding: 0rem;
+}
+
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 376px) {
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -90,6 +197,7 @@ form {
 #message {
     width: 79.9rem;
     height: 8.9376rem;
+    
 }
 
 .card {
@@ -105,6 +213,7 @@ input {
     height: 3.125rem;
     background-color: #888;
     border-bottom: 4px solid #A0009B;
+    font-size: 1.5rem;
 }
 
 .submit {
@@ -119,4 +228,6 @@ input {
     margin-top: 1.19rem;
     border: 0;
     padding: 0rem;
+}
+
 }
