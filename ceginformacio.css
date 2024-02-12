@@ -1,3 +1,119 @@
+@media only screen and (max-width: 375px) {
+
+.container-first {
+    width: 100vw;
+    height: 17.5625rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img {
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+}
+
+h2 {
+    z-index: 1;
+    line-height: 120%;
+    font-weight: 400;
+    font-size: 3.125rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.services {
+    display: none;
+}
+
+.white {
+    background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100vw;
+}
+
+.container-second {
+    padding: 2rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+
+.card-first {
+    display: flex;
+    flex-direction: column;
+    gap: 3.12rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.12rem;
+}
+
+.italic {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    align-self: stretch;
+}
+
+.person {
+    color: #7000A0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: auto;
+}
+
+.container-third {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+p {
+    font-size: 1.125rem;
+    align-self: stretch;
+}
+
+.no-top {
+    margin-top: 0;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+}
+
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 376px) {
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -141,4 +257,5 @@ h3 {
 
 .no-bottom {
     margin-bottom: 0rem;
+}
 }

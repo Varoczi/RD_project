@@ -1,3 +1,54 @@
+@media only screen and (max-width: 375px) {
+
+h3 {
+    display: none;
+}
+
+.separate {
+    margin: 1.62rem 2.41rem 2rem 2.28rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.separate {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+}
+
+p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 376px) {
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -54,4 +105,6 @@ p {
 
 .light-theme .icon path {
     fill: #121215;
+}
+
 }
