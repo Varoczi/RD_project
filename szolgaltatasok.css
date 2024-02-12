@@ -45,6 +45,10 @@ p {
     align-self: stretch;
 }
 
+.light-theme .icon path {
+    fill: #121215;
+}
+
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 376px) {

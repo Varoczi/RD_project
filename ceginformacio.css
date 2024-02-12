@@ -14,7 +14,7 @@
     position: absolute;
 }
 
-h2 {
+.dark-theme h2 {
     z-index: 1;
     line-height: 120%;
     font-weight: 400;
@@ -23,12 +23,30 @@ h2 {
     margin-top: 2rem;
 }
 
+.light-theme h2 {
+    z-index: 1;
+    line-height: 120%;
+    font-weight: 400;
+    font-size: 3.125rem;
+    text-align: center;
+    margin-top: 2rem;
+    text-shadow: 0px 0px 15px #FFF;
+
+}
+
 .services {
     display: none;
 }
 
-.white {
+.dark-theme .white {
     background-color: white;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100vw;
+}
+
+.light-theme .white {
+    background: linear-gradient(117deg, #EEEEF0 0%, #CCCCD8 100%);
     margin: 0rem;
     padding: 0rem;
     width: 100vw;
